@@ -4,6 +4,17 @@ Lightweight security monitoring for Linux servers. Single binary, zero dependenc
 
 Xairas gives you instant system snapshots and a background daemon that watches for threats — new ports, ARP spoofing, SUID binaries, unauthorized users, kernel modules, and more. Deploy in under a minute.
 
+## Screenshots
+
+![Resources Monitor](assets/resources.png)
+
+![Network Audit](assets/network.png)
+
+![Alert Email](assets/email-alerts.png)
+
+![Daily Report](assets/daily-reports.png)
+
+
 ## Quick Start
 
 **Option A — Standalone binary (recommended for production):**
