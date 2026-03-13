@@ -1,0 +1,5 @@
+node_modules/
+dist/
+sea-config.json
+*.blob
+xairas-binary

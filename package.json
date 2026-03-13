@@ -1,0 +1,57 @@
+{
+  "name": "xairas",
+  "version": "0.1.0",
+  "description": "Lightweight security monitoring CLI for Linux servers. Single binary, zero dependencies, real-time alerts.",
+  "type": "module",
+  "bin": {
+    "xairas": "./src/index.js"
+  },
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --platform=node --format=cjs --outfile=dist/xairas.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "security",
+    "monitoring",
+    "linux",
+    "server",
+    "cli",
+    "sysadmin",
+    "devops",
+    "blue-team",
+    "intrusion-detection",
+    "alerts",
+    "telegram",
+    "email",
+    "daemon"
+  ],
+  "author": "Amir Rezvani <amirzvni@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amirzvni/xairas"
+  },
+  "homepage": "https://github.com/amirzvni/xairas",
+  "bugs": {
+    "url": "https://github.com/amirzvni/xairas/issues"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "os": [
+    "linux"
+  ],
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "nodemailer": "^8.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.3"
+  }
+}
